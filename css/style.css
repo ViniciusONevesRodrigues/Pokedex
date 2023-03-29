@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+    background: linear-gradient(to bottom, blue, white);
+    min-height: 100vh;
+}
+main{
+    display: inline-block;
+    margin-top: 2%;
+    position: relative;
+}
+.pokedex {
+    width: 100%;
+}
+.pokemon_image{
+    position: absolute;
+    bottom: 67%;
+    left: 53.8%;
+    height: 28%;
+    transform: translate(-60%, 190%);
+}
+.pokemon_data{
+    position: absolute;
+    font-weight: 600;
+    color: black;
+    top: 54.5%;
+    right: 27%;
+    font-size: clamp(8px, 5vw, 22px);
+}
+.pokemon_name {
+    color: black;
+    text-transform: capitalize;
+}
